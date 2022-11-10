@@ -32,7 +32,8 @@
           </li>
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case text-xl">NuxTri</a>
+      <NuxtLink class="btn btn-ghost normal-case text-xl" to="/">NuxTri</NuxtLink>
+
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
