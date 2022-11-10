@@ -3,10 +3,11 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "dev-https": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "dev-https": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "start-https": "nuxt start --https --ssl-cert localhost.pem --ssl-key localhost-key.pem"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.13"
