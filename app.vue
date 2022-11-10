@@ -1,4 +1,5 @@
 <template>
-  <Header />
+  <TopNav />
   <Hero />
+  <BotNav />
 </template>
