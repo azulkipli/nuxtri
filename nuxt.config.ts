@@ -1,25 +1,21 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
-
+// https://nuxt.com/docs/api/configuration/nuxt-config
 import { defineNuxtConfig } from 'nuxt/config'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   telemetry: false,
-  typescript: {
-    shim: false
-  },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/robots'],
-  colorMode: {
-    preference: 'system', // default theme
-    dataValue: 'theme', // activate data-theme in <html> tag
-    classSuffix: '',
-  },
   ssr: false,
+  css: ['~/assets/css/tailwind.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   app: {
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
-      titleTemplate: '%s NuxTri',
+      titleTemplate: ` NuxTri`,
       htmlAttrs: {
         lang: 'en'
       },
@@ -29,7 +25,5 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'nuxt, tailwind, css' }
       ],
     }
-  }
+  },
 })
-
-

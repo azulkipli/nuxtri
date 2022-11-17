@@ -10,12 +10,12 @@
     "start-https": "nuxt start --https --ssl-cert localhost.pem --ssl-key localhost-key.pem"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.13"
+    "autoprefixer": "^10.4.13",
+    "nuxt": "3.0.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@nuxtjs/color-mode": "^3.1.8",
-    "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/tailwindcss": "^6.1.3",
-    "daisyui": "^2.38.1"
+    "daisyui": "^2.41.0"
   }
 }

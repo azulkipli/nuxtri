@@ -9,7 +9,7 @@
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li>
-            <NuxtLink to="/">About</NuxtLink>
+            <NuxtLink to="/about">About</NuxtLink>
           </li>
           <li tabindex="0">
             <NuxtLink to="/" class="justify-between">
@@ -38,7 +38,7 @@
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
         <li>
-          <NuxtLink to="/">About</NuxtLink>
+          <NuxtLink to="/about">About</NuxtLink>
         </li>
         <li tabindex="0">
           <a href="#">
@@ -66,3 +66,8 @@
     </div>
   </div>
 </template>
+<script setup>
+defineNuxtComponent({
+  name: 'TopNav'
+})
+</script>

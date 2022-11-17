@@ -9,3 +9,4 @@ dist
 .vscode/settings.json
 .vercel
 .unlighthouse
+.DS_Store

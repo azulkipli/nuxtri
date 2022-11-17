@@ -1,8 +1,9 @@
 <template>
-  <TopNav />
-  <Hero />
-  <BotNav />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
 <script setup>
 useHead({
   htmlAttrs: {
