@@ -4,6 +4,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   telemetry: false,
   ssr: false,
+  experimental: {
+    payloadExtraction: false
+  },
   css: ['~/assets/css/tailwind.css'],
   postcss: {
     plugins: {
