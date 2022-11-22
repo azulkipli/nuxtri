@@ -2,7 +2,7 @@
     <div class="hero min-h-screen bg-base-200">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="text-center lg:text-left">
-                <h1 class="text-5xl font-bold">Login now!</h1>
+                <h1 class="text-5xl font-bold">Contact Us</h1>
                 <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                     exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             </div>
@@ -10,21 +10,24 @@
                 <div class="card-body">
                     <div class="form-control">
                         <label class="label">
-                            <span class="label-text">Email</span>
+                            <span class="label-text">Subject</span>
                         </label>
-                        <input type="text" placeholder="email" class="input input-bordered" />
+                        <input type="text" placeholder="Subject" class="input input-bordered" />
                     </div>
                     <div class="form-control">
                         <label class="label">
-                            <span class="label-text">Password</span>
+                            <span class="label-text">Your Email</span>
                         </label>
-                        <input type="text" placeholder="password" class="input input-bordered" />
+                        <input type="text" placeholder="Your Email" class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
                         <label class="label">
-                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                            <span class="label-text">Message</span>
                         </label>
+                        <textarea class="textarea textarea-bordered" placeholder="Message" rows="5"></textarea>
                     </div>
                     <div class="form-control mt-6">
-                        <button class="btn btn-primary">Login</button>
+                        <button class="btn btn-primary">Send</button>
                     </div>
                 </div>
             </div>
